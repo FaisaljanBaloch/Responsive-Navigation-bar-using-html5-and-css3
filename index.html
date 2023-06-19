@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Navigation</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <header>
-        <a href="/" id="logo">RNav</a>
-        <ul class="nav__links">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">About</a></li>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Logo or Title -->
+      <a href="/" id="logo">Top Navbar</a>
+
+      <div class="navbar-collapse">
+        
+        <!-- Hamburger -->
+        <input type="checkbox" id="toggleNav" />
+        <label for="toggleNav" class="menuBtn">&#9776;</label>
+
+        <!-- Navigation links -->
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About</a></li>
         </ul>
-    </header>
-</body>
+      </div>
+    </nav>
+  </body>
 </html>
