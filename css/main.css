@@ -72,14 +72,6 @@ a {
   color: #f6f1f1;
 }
 
-.nav-links li a:hover {
-  opacity: 0.85;
-}
-
-.nav-links li a:focus {
-  opacity: 0.85;
-}
-
 @media only screen and (max-width: 736px) {
   .nav-links {
     display: none;
